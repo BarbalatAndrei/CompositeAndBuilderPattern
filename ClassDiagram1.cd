@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CompositeAndBuilderPattern.Builder.Director">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Builder\Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeAndBuilderPattern.Builder.SportCarBuilder">
+    <Position X="1" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAkgAAAAACAAAAAgAAAAQBAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\SportCarBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CompositeAndBuilderPattern.Builder.StandardCarBuilder">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAkgQAAAACAAAAAgAAAAQBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\StandardCarBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CompositeAndBuilderPattern.CompositePattern.Composite">
+    <Position X="5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAAEABACAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompositePattern\Composite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CompositeAndBuilderPattern.CarElements.Engine">
+    <Position X="1.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAACAAAAAAAIAAAAgAABAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>CarElements\Engine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CompositeAndBuilderPattern.Builder.IBuilder">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAkgAAAAACAAAAAgAAAAQBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\IBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CompositeAndBuilderPattern.CompositePattern.ICar">
+    <Position X="3.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompositePattern\ICar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
